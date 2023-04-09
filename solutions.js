@@ -39,16 +39,20 @@ console.log(evenOdd('Phero'));
 
 function isLGSeven(num) {
     if (typeof num !== 'number') {
-        return 'Error: Input must be a number';
+      return 'Error: Input must be a number';
     }
-
-    const diff = Math.abs(num - 7);
-    if (diff < 7) {
-        return num - 7;
-    } else {
-        return num * 2;
+    
+    if (num >= 7) {
+      return num * 2;
+    } 
+    else {
+      return num - 7;
     }
-}
+  }
+  
+  console.log(isLGSeven(6)); // Output: -1
+  console.log(isLGSeven(-15)); // Output: -22
+  console.log(isLGSeven(15)); // Output: 30
 
 // Description:
 // This JavaScript function is called isLGSeven and takes in one parameter called num. It first checks if the input num is not a number data type, in which case it returns the string 'Error: Input must be a number'. This ensures that the input is a number before proceeding with the calculation.
