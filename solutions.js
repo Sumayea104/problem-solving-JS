@@ -8,12 +8,7 @@ function mindGame(number) {
     let result = ((((number * 3) + 10) / 2) - 5);
     return result;
 }
-// Description:
-// This JavaScript function is called -mindGame and takes in one parameter called -number. It first checks if the input number is less than or equal to zero, in which case it returns the string "Input positive number".
 
-// If the input is a positive number, the function calculates a result using a mathematical formula: (((number * 3) + 10) / 2) - 5. This formula takes the input number, multiplies it by 3, adds 10, divides the result by 2, and then subtracts 5.
-
-// The calculated result is then returned by the function.
 
 // Problem 2: Finding even or odd
 
