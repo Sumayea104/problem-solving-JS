@@ -74,10 +74,6 @@ function findingBadData(arr) {
     return count;
 }
 
-// Description:
-// The findingBadData() function takes an array as input and counts the number of negative elements in the array.It returns the count of negative elements, which are considered as "Bad Data". If the input is not an array, it returns an error message.
-
-// The function uses a for loop to iterate over each element in the input array.If the element is negative, it increments the count variable.After iterating over all the elements in the array, the function returns the count.
 
 
 // Problem 5: Convert your gems into diamond
