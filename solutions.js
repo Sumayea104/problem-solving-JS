@@ -23,12 +23,6 @@ function evenOdd(string) {
     }
 }
 console.log(evenOdd('Phero'));
-// Description:
-// This JavaScript function is called evenOdd and takes in one parameter called string. It first checks if the input string is not a string data type, in which case it returns the string 'Error: Input must be a string'.
-
-// If the input is indeed a string, the function checks if the length of the string is even or odd. If the length of the string is even, it returns the string 'even'. If the length of the string is odd, it returns the string 'odd'. This determines whether the string has an even or odd number of characters.
-
-// The calculated result is then returned by the function.
 
 // Problem 3: Is Less or Greater than seven
 
@@ -48,16 +42,6 @@ function isLGSeven(num) {
   console.log(isLGSeven(6)); // Output: -1
   console.log(isLGSeven(-15)); // Output: -22
   console.log(isLGSeven(15)); // Output: 30
-
-// Description:
-// This JavaScript function is called isLGSeven and takes in one parameter called num. It first checks if the input num is not a number data type, in which case it returns the string 'Error: Input must be a number'. This ensures that the input is a number before proceeding with the calculation.
-
-// If the input is indeed a number, the function calculates the absolute difference between the input number and 7 using the Math.abs function and stores it in a variable called diff.
-
-// If diff is less than 7, the function returns the input number minus 7. If diff is greater than or equal to 7, the function returns the input number multiplied by 2.
-
-// The calculated result is then returned by the function.
-
 
 // Problem 4: Finding Bad data
 
@@ -96,6 +80,3 @@ function gemsToDiamond(gems1, gems2, gems3) {
 
     return totalDiamonds;
 }
-
-// Description:
-// The gemsToDiamond() function takes in three parameters gems1, gems2, and gems3 which represent the number of gems each friend has. The function calculates the total number of diamonds that the friends can get based on the conversion rate of gems to diamonds.
